@@ -4,12 +4,14 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* ─── Tailwind v4 : palette brand + tokens shadcn ─── */
 @theme inline {
+  /* Shadcn tokens (inchangés) */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
+  --font-heading: var(--font-heading);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -46,85 +48,142 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* ─── Palette brand Jardins & Co ─── */
+  --color-forest:         #1A2E1F;   /* fond principal                  */
+  --color-forest-card:    #243D2A;   /* cards, sections alternées        */
+  --color-forest-elevated:#2D4A33;   /* hover, éléments mis en avant     */
+  --color-forest-dark:    #0F1F14;   /* footer                          */
+  --color-forest-border:  #3A5240;   /* bordures discrètes              */
+  --color-cream:          #F5F1E8;   /* titres et body principal         */
+  --color-sage:           #A8B5A0;   /* textes secondaires              */
+  --color-gold:           #C9A961;   /* CTA, badges, accents            */
+  --color-leaf:           #A8C97F;   /* vert clair alternatif           */
+
+  /* Fonts */
+  --font-fraunces: var(--font-fraunces);
+  --font-inter:    var(--font-inter);
+  --font-caveat:   var(--font-caveat);
 }
 
+/* ─── Shadcn :root (thème clair — non utilisé sur ce site) ─── */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --background: #1A2E1F;
+  --foreground: #F5F1E8;
+  --card: #243D2A;
+  --card-foreground: #F5F1E8;
+  --popover: #243D2A;
+  --popover-foreground: #F5F1E8;
+  --primary: #C9A961;
+  --primary-foreground: #1A2E1F;
+  --secondary: #243D2A;
+  --secondary-foreground: #F5F1E8;
+  --muted: #2D4A33;
+  --muted-foreground: #A8B5A0;
+  --accent: #2D4A33;
+  --accent-foreground: #F5F1E8;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  --border: #3A5240;
+  --input: #3A5240;
+  --ring: #C9A961;
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --chart-1: #C9A961;
+  --chart-2: #A8C97F;
+  --chart-3: #A8B5A0;
+  --chart-4: #2D4A33;
+  --chart-5: #1A2E1F;
+  --sidebar: #243D2A;
+  --sidebar-foreground: #F5F1E8;
+  --sidebar-primary: #C9A961;
+  --sidebar-primary-foreground: #1A2E1F;
+  --sidebar-accent: #2D4A33;
+  --sidebar-accent-foreground: #F5F1E8;
+  --sidebar-border: #3A5240;
+  --sidebar-ring: #C9A961;
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
-}
-
+/* ─── Base styles ─── */
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
+
   html {
-    @apply font-sans;
+    font-family: var(--font-inter), system-ui, sans-serif;
+    background-color: #1A2E1F;
+    color: #F5F1E8;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-forest text-cream antialiased;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-fraunces), Georgia, serif;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4.5rem); /* 40px → 72px */
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 4vw, 3rem); /* 32px → 48px */
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: clamp(1.5rem, 2.5vw, 2rem); /* 24px → 32px */
+    font-weight: 400;
+  }
+
+  p, li, span, a {
+    font-family: var(--font-inter), system-ui, sans-serif;
+    font-size: clamp(1rem, 1.2vw, 1.125rem); /* 16px → 18px */
+    line-height: 1.6;
+  }
+}
+
+/* ─── Utilitaires custom ─── */
+@layer utilities {
+  .section-padding {
+    padding-top: clamp(4rem, 8vw, 8rem);
+    padding-bottom: clamp(4rem, 8vw, 8rem);
+  }
+
+  .container-brand {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(1.5rem, 5vw, 5rem);
+    padding-right: clamp(1.5rem, 5vw, 5rem);
+  }
+
+  .font-fraunces {
+    font-family: var(--font-fraunces), Georgia, serif;
+  }
+
+  .font-caveat {
+    font-family: var(--font-caveat), cursive;
+  }
+
+  .gold-line {
+    display: block;
+    width: 4rem;
+    height: 2px;
+    background-color: #C9A961;
+    border-radius: 9999px;
+  }
+
+  .glassmorphism {
+    background-color: rgb(36 61 42 / 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid #3A5240;
+    border-radius: 1rem;
   }
 }
