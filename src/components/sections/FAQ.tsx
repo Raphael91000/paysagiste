@@ -11,9 +11,9 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "Intervenez-vous uniquement sur [Ville] ou dans toute la région ?",
+    question: "Intervenez-vous uniquement sur Carnetin ou dans toute la région ?",
     answer:
-      "Nous intervenons dans un rayon de 50 km autour de [Ville], ce qui couvre la grande majorité des communes de la région. N'hésitez pas à nous contacter pour vérifier si votre adresse est dans notre zone — dans le doute, la visite initiale est toujours gratuite.",
+      "Nous intervenons dans un rayon de 50 km autour de Carnetin, ce qui couvre la grande majorité des communes de la région. N'hésitez pas à nous contacter pour vérifier si votre adresse est dans notre zone — dans le doute, la visite initiale est toujours gratuite.",
   },
   {
     question: "Combien coûte une intervention ? Y a-t-il un minimum de facturation ?",
@@ -28,7 +28,7 @@ const faqs: FAQItem[] = [
   {
     question: "Êtes-vous certifiés ou assurés ?",
     answer:
-      "Absolument. Jardins & Co est membre de l'UNEP (Union Nationale des Entrepreneurs du Paysage), certifié RGE (Reconnu Garant de l'Environnement) et dispose d'une assurance décennale ainsi qu'une responsabilité civile professionnelle à jour. Nous pouvons vous fournir toutes les attestations sur simple demande.",
+      "Absolument. Cribos Elagage est membre de l'UNEP (Union Nationale des Entrepreneurs du Paysage), certifié RGE (Reconnu Garant de l'Environnement) et dispose d'une assurance décennale ainsi qu'une responsabilité civile professionnelle à jour. Nous pouvons vous fournir toutes les attestations sur simple demande.",
   },
   {
     question: "Quel délai faut-il prévoir entre la demande et le début des travaux ?",
@@ -146,11 +146,11 @@ export default function FAQ() {
                 trouvez pas ce que vous cherchez&nbsp;? Appelez-nous directement.
               </p>
               <a
-                href="tel:+33600000000"
+                href="tel:+33611660329"
                 className="inline-flex items-center gap-2 text-cream text-sm mt-2 hover:text-leaf transition-colors duration-200"
               >
                 <span className="text-leaf">→</span>
-                06 00 00 00 00
+                06 11 66 03 29
               </a>
             </motion.div>
           </div>

@@ -114,9 +114,9 @@ export default function Contact() {
               className="flex flex-col gap-4"
             >
               {[
-                { icon: Phone, label: "Téléphone", value: "06 00 00 00 00", href: "tel:+33600000000" },
+                { icon: Phone, label: "Téléphone", value: "06 11 66 03 29", href: "tel:+33611660329" },
                 { icon: Mail, label: "E-mail", value: "contact@jardins-co.fr", href: "mailto:contact@jardins-co.fr" },
-                { icon: MapPin, label: "Adresse", value: "12 rue des Acacias, [Ville]", href: undefined },
+                { icon: MapPin, label: "Adresse", value: "30 Rue Albert Mattar, 77400 Carnetin", href: undefined },
               ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex items-start gap-3">
                   <div

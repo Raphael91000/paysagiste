@@ -11,9 +11,7 @@ const serviceLinks = [
 ];
 
 const horaires = [
-  { jour: "Lundi – Vendredi", heure: "8h00 – 18h00" },
-  { jour: "Samedi", heure: "9h00 – 13h00" },
-  { jour: "Dimanche", heure: "Fermé" },
+  { jour: "Lundi – Dimanche", heure: "8h00 – 22h00" },
 ];
 
 export default function Footer() {
@@ -30,11 +28,11 @@ export default function Footer() {
           {/* Colonne 1 : Logo + pitch */}
           <div className="flex flex-col gap-4 lg:col-span-1">
             <p className="font-fraunces text-2xl text-cream">
-              Jardins &amp; Co
+              Cribos Elagage
             </p>
             <p className="text-sage text-sm leading-relaxed">
-              Paysagiste artisanal à [Ville] depuis 2008. Création, entretien
-              et aménagement d&apos;espaces verts d&apos;exception.
+              Élagage et entretien d&apos;arbres à Carnetin (77400). Intervention du
+              lundi au dimanche de 8h à 22h.
             </p>
             <span className="gold-line" aria-hidden="true" />
             <p className="text-sage/60 text-xs">
@@ -72,16 +70,16 @@ export default function Footer() {
               <li className="flex items-start gap-2.5">
                 <MapPin size={14} className="text-gold shrink-0 mt-0.5" aria-hidden="true" />
                 <span className="text-sage text-sm leading-snug">
-                  12 rue des Acacias<br />[Code Postal] [Ville]
+                  30 Rue Albert Mattar<br />77400 Carnetin, France
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone size={14} className="text-gold shrink-0" aria-hidden="true" />
                 <a
-                  href="tel:+33600000000"
+                  href="tel:+33611660329"
                   className="text-sage text-sm hover:text-cream transition-colors duration-200"
                 >
-                  06 00 00 00 00
+                  06 11 66 03 29
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -122,7 +120,7 @@ export default function Footer() {
         {/* Ligne copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 py-6 text-sage/60 text-xs">
           <p>
-            © {year} Jardins &amp; Co — Tous droits réservés
+            © {year} Cribos Elagage — Tous droits réservés
           </p>
           <div className="flex items-center gap-4">
             <a href="#" className="hover:text-sage transition-colors duration-200">

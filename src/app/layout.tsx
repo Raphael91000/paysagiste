@@ -21,22 +21,22 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Jardins & Co — Paysagiste à [Ville]",
+  title: "Cribos Elagage — Élagage à Carnetin",
   description:
-    "Création, entretien et aménagement de jardins d'exception. Paysagiste artisanal à [Ville] depuis 2008. Devis gratuit.",
+    "Élagage, taille et entretien d'arbres à Carnetin (77400). Cribos Elagage intervient du lundi au dimanche de 8h à 22h. Devis gratuit.",
   keywords: [
-    "paysagiste",
-    "jardins",
-    "création jardin",
+    "élagage",
+    "taille arbres",
+    "arboriste",
     "entretien jardin",
-    "aménagement extérieur",
-    "[Ville]",
+    "Carnetin",
+    "77400",
   ],
-  authors: [{ name: "Jardins & Co" }],
+  authors: [{ name: "Cribos Elagage" }],
   openGraph: {
-    title: "Jardins & Co — Paysagiste à [Ville]",
+    title: "Cribos Elagage — Élagage à Carnetin",
     description:
-      "Création, entretien et aménagement de jardins d'exception à [Ville].",
+      "Élagage et taille d'arbres à Carnetin (77400). Du lundi au dimanche de 8h à 22h.",
     type: "website",
     locale: "fr_FR",
   },

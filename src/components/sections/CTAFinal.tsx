@@ -50,11 +50,11 @@ export default function CTAFinal() {
               <ArrowRight size={16} />
             </a>
             <a
-              href="tel:+33600000000"
+              href="tel:+33611660329"
               className="inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-cream/40 text-cream text-sm font-medium rounded-full hover:bg-cream/10 hover:border-cream/60 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cream/50"
             >
               <Phone size={16} />
-              06 00 00 00 00
+              06 11 66 03 29
             </a>
           </div>
 

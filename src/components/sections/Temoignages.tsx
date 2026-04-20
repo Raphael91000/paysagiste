@@ -11,24 +11,24 @@ interface Temoignage {
 const temoignages: Temoignage[] = [
   {
     nom: "Marie-Claire Fontaine",
-    ville: "[Ville]",
+    ville: "Carnetin",
     initiales: "MF",
     citation:
-      "Jardins & Co a complètement transformé notre terrain en friche en un véritable écrin de verdure. Le résultat dépasse toutes nos espérances. L'équipe est sérieuse, créative et à l'écoute — nous les recommandons chaleureusement.",
+      "Cribos Elagage a complètement transformé notre terrain en friche en un véritable écrin de verdure. Le résultat dépasse toutes nos espérances. L'équipe est sérieuse, créative et à l'écoute — nous les recommandons chaleureusement.",
   },
   {
     nom: "Thomas & Isabelle Moreau",
-    ville: "[Commune]",
+    ville: "Carnetin",
     initiales: "TM",
     citation:
-      "Après plusieurs devis d'autres paysagistes, c'est Jardins & Co qui nous a convaincus avec leur approche sur-mesure. Chaque détail a été pensé, des essences végétales choisies jusqu'à l'éclairage extérieur. Un travail remarquable.",
+      "Après plusieurs devis d'autres paysagistes, c'est Cribos Elagage qui nous a convaincus avec leur approche sur-mesure. Chaque détail a été pensé, des essences végétales choisies jusqu'à l'éclairage extérieur. Un travail remarquable.",
   },
   {
     nom: "Bertrand Lacombe",
-    ville: "[Village]",
+    ville: "Carnetin",
     initiales: "BL",
     citation:
-      "Cela fait maintenant trois ans que Jardins & Co entretient notre parc. Ponctualité, professionnalisme et passion du métier : on ne pourrait pas rêver mieux. Notre jardin est une fierté au fil des saisons.",
+      "Cela fait maintenant trois ans que Cribos Elagage entretient notre parc. Ponctualité, professionnalisme et passion du métier : on ne pourrait pas rêver mieux. Notre jardin est une fierté au fil des saisons.",
   },
 ];
 

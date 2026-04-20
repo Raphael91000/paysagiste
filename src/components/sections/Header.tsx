@@ -61,9 +61,9 @@ export default function Header() {
           <a
             href="#accueil"
             className="font-fraunces text-xl md:text-2xl text-cream tracking-wide hover:text-gold transition-colors duration-200"
-            aria-label="Jardins & Co — retour à l'accueil"
+            aria-label="Cribos Elagage — retour à l'accueil"
           >
-            Jardins &amp; Co
+            Cribos Elagage
           </a>
 
           {/* Nav desktop */}
@@ -97,12 +97,12 @@ export default function Header() {
           {/* CTA desktop */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+33600000000"
+              href="tel:+33611660329"
               className="flex items-center gap-1.5 text-sm text-sage hover:text-cream transition-colors duration-200"
               aria-label="Appelez-nous"
             >
               <Phone size={14} />
-              <span>06 00 00 00 00</span>
+              <span>06 11 66 03 29</span>
             </a>
             <a
               href="#contact"
@@ -128,7 +128,7 @@ export default function Header() {
             >
               {/* Logo dans le menu */}
               <p className="font-fraunces text-2xl text-cream mb-10">
-                Jardins &amp; Co
+                Cribos Elagage
               </p>
 
               {/* Liens nav */}
@@ -156,11 +156,11 @@ export default function Header() {
                   </a>
                 </SheetClose>
                 <a
-                  href="tel:+33600000000"
+                  href="tel:+33611660329"
                   className="flex items-center justify-center gap-2 text-sm text-sage hover:text-cream transition-colors duration-200"
                 >
                   <Phone size={14} />
-                  06 00 00 00 00
+                  06 11 66 03 29
                 </a>
               </div>
             </SheetContent>
