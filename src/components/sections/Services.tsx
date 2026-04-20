@@ -84,7 +84,6 @@ function CardItem({ service, index }: { service: Service; index: number }) {
       role="article"
       aria-label={service.title}
       whileHover={{ backgroundColor: "#2D4A33", y: -6, boxShadow: "0 16px 40px rgba(0,0,0,0.35)" }}
-      transition={{ duration: 0.25 }}
     >
       {/* Numéro fantôme */}
       <span
