@@ -99,7 +99,6 @@ export default function Approche() {
                 }}
                 role="article"
                 whileHover={{ y: -6, boxShadow: "0 16px 40px rgba(0,0,0,0.35)", backgroundColor: "#2D4A33" }}
-                transition={{ duration: 0.25 }}
               >
                 {/* Icône + numéro */}
                 <div className="flex items-center justify-between">
