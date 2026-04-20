@@ -126,62 +126,94 @@ export default function Hero() {
             transition={{ duration: 0.9, delay: 0.3, ease: EASE }}
             className="flex items-center justify-center lg:justify-end"
           >
-            {/* Wrapper relatif — badges positionnés ici, clip-path uniquement sur l'image */}
-            <div className="relative" style={{ maxWidth: 380, width: "100%" }}>
+            <div className="flex flex-col gap-4" style={{ maxWidth: 380, width: "100%" }}>
 
-              {/* Image avec clip-path */}
-              <div
-                className="relative w-full overflow-hidden"
-                style={{
-                  aspectRatio: "3/4",
-                  borderRadius: "16px",
-                }}
-              >
-                <Image
-                  src="/ok.jpeg"
-                  alt="Jardin d'exception créé par Cribos Elagage"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 90vw, 380px"
-                  priority
-                />
+              {/* Card + badges desktop */}
+              <div className="relative">
+
+                {/* Image */}
                 <div
-                  className="absolute inset-0"
-                  style={{ background: "linear-gradient(to bottom, transparent 50%, rgba(26,46,31,0.55) 100%)" }}
-                  aria-hidden="true"
-                />
+                  className="relative w-full overflow-hidden"
+                  style={{ aspectRatio: "3/4", borderRadius: "16px" }}
+                >
+                  <Image
+                    src="/ok.jpeg"
+                    alt="Jardin d'exception créé par Cribos Elagage"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 90vw, 380px"
+                    priority
+                  />
+                  <div
+                    className="absolute inset-0"
+                    style={{ background: "linear-gradient(to bottom, transparent 50%, rgba(26,46,31,0.55) 100%)" }}
+                    aria-hidden="true"
+                  />
+                </div>
+
+                {/* Badge haut-gauche — desktop uniquement */}
+                <motion.div
+                  initial={{ opacity: 0, y: -12 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.9, ease: EASE }}
+                  className="hidden lg:block absolute top-8 left-0 -translate-x-1/2 px-4 py-2.5"
+                  style={{
+                    background: "rgba(11, 28, 16, 0.88)",
+                    backdropFilter: "blur(14px)",
+                    borderRadius: "10px",
+                  }}
+                >
+                  <p className="font-fraunces text-2xl text-leaf leading-none">150+</p>
+                  <p className="text-sage text-xs mt-0.5">jardins réalisés</p>
+                </motion.div>
+
+                {/* Badge bas-droite — desktop uniquement */}
+                <motion.div
+                  initial={{ opacity: 0, y: 12 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 1.1, ease: EASE }}
+                  className="hidden lg:block absolute bottom-8 right-0 translate-x-1/2 px-4 py-2.5 text-right"
+                  style={{
+                    background: "rgba(11, 28, 16, 0.88)",
+                    backdropFilter: "blur(14px)",
+                    borderRadius: "10px",
+                  }}
+                >
+                  <p className="font-fraunces text-2xl text-cream leading-none">98 %</p>
+                  <p className="text-sage text-xs mt-0.5">clients satisfaits</p>
+                </motion.div>
+
               </div>
 
-              {/* Badge haut-gauche — sur l'image */}
-              <motion.div
-                initial={{ opacity: 0, y: -12 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.9, ease: EASE }}
-                className="absolute top-8 left-0 -translate-x-1/2 px-4 py-2.5"
-                style={{
-                  background: "rgba(11, 28, 16, 0.88)",
-                  backdropFilter: "blur(14px)",
-                  borderRadius: "10px",
-                }}
-              >
-                <p className="font-fraunces text-2xl text-leaf leading-none">150+</p>
-                <p className="text-sage text-xs mt-0.5">jardins réalisés</p>
-              </motion.div>
-
-              {/* Badge bas-droite — sur l'image */}
+              {/* Badges mobile — en dessous de la card */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 1.1, ease: EASE }}
-                className="absolute bottom-8 right-0 translate-x-1/2 px-4 py-2.5 text-right"
-                style={{
-                  background: "rgba(11, 28, 16, 0.88)",
-                  backdropFilter: "blur(14px)",
-                  borderRadius: "10px",
-                }}
+                transition={{ duration: 0.5, delay: 0.9, ease: EASE }}
+                className="flex lg:hidden gap-3"
               >
-                <p className="font-fraunces text-2xl text-cream leading-none">98 %</p>
-                <p className="text-sage text-xs mt-0.5">clients satisfaits</p>
+                <div
+                  className="flex-1 px-4 py-2.5 text-center"
+                  style={{
+                    background: "rgba(11, 28, 16, 0.88)",
+                    backdropFilter: "blur(14px)",
+                    borderRadius: "10px",
+                  }}
+                >
+                  <p className="font-fraunces text-2xl text-leaf leading-none">150+</p>
+                  <p className="text-sage text-xs mt-0.5">jardins réalisés</p>
+                </div>
+                <div
+                  className="flex-1 px-4 py-2.5 text-center"
+                  style={{
+                    background: "rgba(11, 28, 16, 0.88)",
+                    backdropFilter: "blur(14px)",
+                    borderRadius: "10px",
+                  }}
+                >
+                  <p className="font-fraunces text-2xl text-leaf leading-none">98 %</p>
+                  <p className="text-sage text-xs mt-0.5">clients satisfaits</p>
+                </div>
               </motion.div>
 
             </div>
