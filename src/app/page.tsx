@@ -13,7 +13,7 @@ export default function Page() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <Hero />
         <Stats />         {/* gère ses propres vagues Hero→Stats et Stats→Services */}
         <Services />

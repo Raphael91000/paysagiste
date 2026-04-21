@@ -14,7 +14,7 @@ const stats = [
   { numeric: 150, suffix: "+",   label: "Jardins créés",       sub: "depuis 2008" },
   { numeric: 15,  suffix: "",    label: "Ans d'expérience",    sub: "savoir-faire familial" },
   { numeric: 98,  suffix: " %",  label: "Clients satisfaits",  sub: "selon nos enquêtes" },
-  { numeric: 50,  suffix: " km", label: "Zone d'intervention", sub: "autour de Carnetin" },
+  { numeric: 50,  suffix: " km", label: "Zone d'intervention", sub: "autour de Bussang" },
 ];
 
 function CountUp({ target, suffix, run }: { target: number; suffix: string; run: boolean }) {
@@ -78,7 +78,7 @@ export default function Stats() {
                   <CountUp target={stat.numeric} suffix={stat.suffix} run={isInView} />
                 </span>
                 <span className="text-cream text-sm font-medium">{stat.label}</span>
-                <span className="text-sage/60 text-xs">{stat.sub}</span>
+                <span className="text-sage/80 text-xs">{stat.sub}</span>
               </motion.div>
             ))}
           </div>

@@ -114,9 +114,9 @@ export default function Contact() {
               className="flex flex-col gap-4"
             >
               {[
-                { icon: Phone, label: "Téléphone", value: "06 11 66 03 29", href: "tel:+33611660329" },
+                { icon: Phone, label: "Téléphone", value: "06 36 31 61 83", href: "tel:+33636316183" },
                 { icon: Mail, label: "E-mail", value: "contact@jardins-co.fr", href: "mailto:contact@jardins-co.fr" },
-                { icon: MapPin, label: "Adresse", value: "30 Rue Albert Mattar, 77400 Carnetin", href: undefined },
+                { icon: MapPin, label: "Adresse", value: "2 Chem. du Pommerey, 88540 Bussang", href: undefined },
               ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex items-start gap-3">
                   <div
@@ -160,12 +160,8 @@ export default function Contact() {
                   <span className="text-cream">8h – 18h</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-sage">Samedi</span>
-                  <span className="text-cream">9h – 13h</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-sage">Dimanche</span>
-                  <span className="text-sage/60">Fermé</span>
+                  <span className="text-sage">Samedi – Dimanche</span>
+                  <span className="text-sage/80">Fermé</span>
                 </div>
               </div>
             </motion.div>
@@ -305,7 +301,7 @@ export default function Contact() {
                   />
                 </Field>
 
-                <p className="text-sage/50 text-xs">
+                <p className="text-sage/80 text-xs">
                   * Champs obligatoires. Vos données ne seront jamais cédées à des
                   tiers.
                 </p>

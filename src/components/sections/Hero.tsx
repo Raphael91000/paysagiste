@@ -31,7 +31,7 @@ export default function Hero() {
             <motion.div {...fadeUp(0.1)}>
               <span className="inline-flex items-center gap-3 text-xs font-medium uppercase tracking-[0.22em] text-leaf">
                 <span className="w-8 h-px bg-leaf/50" aria-hidden="true" />
-                Paysagiste depuis 2008 — Carnetin
+                Paysagiste depuis 2008 — Bussang
               </span>
             </motion.div>
 
@@ -60,7 +60,7 @@ export default function Hero() {
               className="text-sage text-base leading-relaxed max-w-md"
             >
               Création, entretien et aménagement de jardins d&apos;exception
-              à Carnetin. Un savoir-faire artisanal au service de votre nature,
+              à Bussang. Un savoir-faire artisanal au service de votre nature,
               depuis plus de 15 ans.
             </motion.p>
 
@@ -89,7 +89,7 @@ export default function Hero() {
             {/* Téléphone + badge Google */}
             <motion.div {...fadeUp(0.5)} className="flex flex-col gap-3">
               <a
-                href="tel:+33611660329"
+                href="tel:+33636316183"
                 className="inline-flex items-center gap-2.5 text-sage hover:text-cream transition-colors duration-200 text-sm w-fit"
                 aria-label="Appelez-nous"
               >
@@ -102,7 +102,7 @@ export default function Hero() {
                 >
                   <Phone size={13} className="text-leaf" />
                 </span>
-                06 11 66 03 29 — Lun. au dim. 8h–22h
+                06 36 31 61 83 — Lun. au ven. 8h–18h
               </a>
 
               {/* Badge Google */}
@@ -112,9 +112,9 @@ export default function Hero() {
                     <Star key={i} size={12} className="text-gold fill-gold" aria-hidden="true" />
                   ))}
                 </div>
-                <span className="text-sage/70 text-xs">4,9 / 5 · Google</span>
+                <span className="text-sage/80 text-xs">4,9 / 5 · Google</span>
                 <span className="text-sage/30 text-xs">·</span>
-                <span className="text-sage/50 text-xs">+60 avis</span>
+                <span className="text-sage/80 text-xs">+60 avis</span>
               </div>
             </motion.div>
           </div>
@@ -138,7 +138,7 @@ export default function Hero() {
                 >
                   <Image
                     src="/ok.jpeg"
-                    alt="Jardin d'exception créé par Cribos Elagage"
+                    alt="Jardin d'exception créé par Horizon Paysage"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 90vw, 380px"

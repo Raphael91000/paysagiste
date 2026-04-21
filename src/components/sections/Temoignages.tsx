@@ -11,24 +11,24 @@ interface Temoignage {
 const temoignages: Temoignage[] = [
   {
     nom: "Marie-Claire Fontaine",
-    ville: "Carnetin",
+    ville: "Bussang",
     initiales: "MF",
     citation:
-      "Cribos Elagage a complètement transformé notre terrain en friche en un véritable écrin de verdure. Le résultat dépasse toutes nos espérances. L'équipe est sérieuse, créative et à l'écoute — nous les recommandons chaleureusement.",
+      "Horizon Paysage a complètement transformé notre terrain en friche en un véritable écrin de verdure. Le résultat dépasse toutes nos espérances. L'équipe est sérieuse, créative et à l'écoute — nous les recommandons chaleureusement.",
   },
   {
     nom: "Thomas & Isabelle Moreau",
-    ville: "Carnetin",
+    ville: "Bussang",
     initiales: "TM",
     citation:
-      "Après plusieurs devis d'autres paysagistes, c'est Cribos Elagage qui nous a convaincus avec leur approche sur-mesure. Chaque détail a été pensé, des essences végétales choisies jusqu'à l'éclairage extérieur. Un travail remarquable.",
+      "Après plusieurs devis d'autres paysagistes, c'est Horizon Paysage qui nous a convaincus avec leur approche sur-mesure. Chaque détail a été pensé, des essences végétales choisies jusqu'à l'éclairage extérieur. Un travail remarquable.",
   },
   {
     nom: "Bertrand Lacombe",
-    ville: "Carnetin",
+    ville: "Bussang",
     initiales: "BL",
     citation:
-      "Cela fait maintenant trois ans que Cribos Elagage entretient notre parc. Ponctualité, professionnalisme et passion du métier : on ne pourrait pas rêver mieux. Notre jardin est une fierté au fil des saisons.",
+      "Cela fait maintenant trois ans que Horizon Paysage entretient notre parc. Ponctualité, professionnalisme et passion du métier : on ne pourrait pas rêver mieux. Notre jardin est une fierté au fil des saisons.",
   },
 ];
 

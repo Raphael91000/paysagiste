@@ -11,7 +11,7 @@ const serviceLinks = [
 ];
 
 const horaires = [
-  { jour: "Lundi – Dimanche", heure: "8h00 – 22h00" },
+  { jour: "Lundi – Vendredi", heure: "8h00 – 18h00" },
 ];
 
 export default function Footer() {
@@ -28,14 +28,14 @@ export default function Footer() {
           {/* Colonne 1 : Logo + pitch */}
           <div className="flex flex-col gap-4 lg:col-span-1">
             <p className="font-fraunces text-2xl text-cream">
-              Cribos Elagage
+              Horizon Paysage
             </p>
             <p className="text-sage text-sm leading-relaxed">
-              Élagage et entretien d&apos;arbres à Carnetin (77400). Intervention du
-              lundi au dimanche de 8h à 22h.
+              Élagage et entretien d&apos;arbres à Bussang (88540). Intervention du
+              lundi au vendredi de 8h à 18h.
             </p>
             <span className="gold-line" aria-hidden="true" />
-            <p className="text-sage/60 text-xs">
+            <p className="text-sage/80 text-xs">
               Membre de l&apos;UNEP · Certifié RGE
             </p>
           </div>
@@ -70,16 +70,16 @@ export default function Footer() {
               <li className="flex items-start gap-2.5">
                 <MapPin size={14} className="text-gold shrink-0 mt-0.5" aria-hidden="true" />
                 <span className="text-sage text-sm leading-snug">
-                  30 Rue Albert Mattar<br />77400 Carnetin, France
+                  2 Chem. du Pommerey<br />88540 Bussang, France
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone size={14} className="text-gold shrink-0" aria-hidden="true" />
                 <a
-                  href="tel:+33611660329"
+                  href="tel:+33636316183"
                   className="text-sage text-sm hover:text-cream transition-colors duration-200"
                 >
-                  06 11 66 03 29
+                  06 36 31 61 83
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -110,7 +110,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-            <p className="text-sage/60 text-xs leading-relaxed mt-1">
+            <p className="text-sage/80 text-xs leading-relaxed mt-1">
               Intervention d&apos;urgence disponible pour les clients
               sous contrat d&apos;entretien.
             </p>
@@ -118,9 +118,9 @@ export default function Footer() {
         </div>
 
         {/* Ligne copyright */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 py-6 text-sage/60 text-xs">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 py-6 text-sage/80 text-xs">
           <p>
-            © {year} Cribos Elagage — Tous droits réservés
+            © {year} Horizon Paysage — Tous droits réservés
           </p>
           <div className="flex items-center gap-4">
             <a href="#" className="hover:text-sage transition-colors duration-200">

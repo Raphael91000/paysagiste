@@ -144,7 +144,7 @@ export default function Services() {
             <div className="flex items-center gap-4">
               <span className="text-leaf text-xs uppercase tracking-[0.22em]">Expertises</span>
               <span className="h-px w-16 bg-leaf/30" aria-hidden="true" />
-              <span className="text-sage/50 text-xs">06 services</span>
+              <span className="text-sage/80 text-xs">06 services</span>
             </div>
             <h2
               className="font-fraunces text-cream leading-[0.9] tracking-tight"
