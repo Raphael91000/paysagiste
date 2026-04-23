@@ -21,22 +21,22 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Horizon Paysage — Élagage à Bussang",
+  title: "Waeldo Elagueur — Élagage à Sotteville-lès-Rouen",
   description:
-    "Élagage, taille et entretien d'arbres à Bussang (88540). Horizon Paysage intervient du lundi au vendredi de 8h à 18h. Devis gratuit.",
+    "Élagage, taille et entretien d'arbres à Sotteville-lès-Rouen (76300). Waeldo Elagueur intervient du lundi au vendredi de 8h à 18h. Devis gratuit.",
   keywords: [
     "élagage",
     "taille arbres",
     "arboriste",
     "entretien jardin",
-    "Bussang",
-    "88540",
+    "Sotteville-lès-Rouen",
+    "76300",
   ],
-  authors: [{ name: "Horizon Paysage" }],
+  authors: [{ name: "Waeldo Elagueur" }],
   openGraph: {
-    title: "Horizon Paysage — Élagage à Bussang",
+    title: "Waeldo Elagueur — Élagage à Sotteville-lès-Rouen",
     description:
-      "Élagage et taille d'arbres à Bussang (88540). Du lundi au vendredi de 8h à 18h.",
+      "Élagage et taille d'arbres à Sotteville-lès-Rouen (76300). Du lundi au vendredi de 8h à 18h.",
     type: "website",
     locale: "fr_FR",
   },

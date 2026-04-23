@@ -61,9 +61,9 @@ export default function Header() {
           <a
             href="#accueil"
             className="font-fraunces text-xl md:text-2xl text-cream tracking-wide hover:text-gold transition-colors duration-200"
-            aria-label="Horizon Paysage — retour à l'accueil"
+            aria-label="Waeldo Elagueur — retour à l'accueil"
           >
-            Horizon Paysage
+            Waeldo Elagueur
           </a>
 
           {/* Nav desktop */}
@@ -97,12 +97,12 @@ export default function Header() {
           {/* CTA desktop */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+33636316183"
+              href="tel:+33644788596"
               className="flex items-center gap-1.5 text-sm text-sage hover:text-cream transition-colors duration-200"
               aria-label="Appelez-nous"
             >
               <Phone size={14} />
-              <span>06 36 31 61 83</span>
+              <span>06 44 78 85 96</span>
             </a>
             <a
               href="#contact"
@@ -128,7 +128,7 @@ export default function Header() {
             >
               {/* Logo dans le menu */}
               <p className="font-fraunces text-2xl text-cream mb-10">
-                Horizon Paysage
+                Waeldo Elagueur
               </p>
 
               {/* Liens nav */}
@@ -156,11 +156,11 @@ export default function Header() {
                   </a>
                 </SheetClose>
                 <a
-                  href="tel:+33636316183"
+                  href="tel:+33644788596"
                   className="flex items-center justify-center gap-2 text-sm text-sage hover:text-cream transition-colors duration-200"
                 >
                   <Phone size={14} />
-                  06 36 31 61 83
+                  06 44 78 85 96
                 </a>
               </div>
             </SheetContent>

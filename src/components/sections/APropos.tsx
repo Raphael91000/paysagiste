@@ -13,7 +13,7 @@ export default function APropos() {
     <section
       id="a-propos"
       className="section-padding bg-forest"
-      aria-label="À propos de Horizon Paysage"
+      aria-label="À propos de Waeldo Elagueur"
     >
       <div className="container-brand">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
@@ -22,7 +22,7 @@ export default function APropos() {
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden max-w-md mx-auto lg:mx-0">
               <Image
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80"
-                alt="Portrait du paysagiste fondateur de Horizon Paysage"
+                alt="Portrait de Waeldo Elagueur"
                 fill
                 className="object-cover saturate-[0.85] brightness-90"
                 sizes="(max-width: 1024px) 80vw, 40vw"
@@ -62,10 +62,10 @@ export default function APropos() {
                 hérité naturellement.
               </p>
               <p>
-                Depuis 2008, Horizon Paysage accompagne des centaines de
-                familles et d&apos;entreprises de la région Bussang dans la
-                création et l&apos;entretien de leurs espaces verts. Notre
-                équipe de cinq paysagistes partage la même conviction : un
+                Depuis 2008, Waeldo Elagueur accompagne des centaines de
+                familles et d&apos;entreprises de la région de Sotteville-lès-Rouen
+                dans la création et l&apos;entretien de leurs espaces verts. Notre
+                équipe partage la même conviction : un
                 beau jardin, c&apos;est avant tout un jardin qui vous
                 ressemble.
               </p>
@@ -99,7 +99,7 @@ export default function APropos() {
             >
               Jean-Pierre Martin
             </p>
-            <p className="text-sage text-xs -mt-3">Fondateur, Horizon Paysage</p>
+            <p className="text-sage text-xs -mt-3">Fondateur, Waeldo Elagueur</p>
           </AnimatedSection>
         </div>
       </div>

@@ -28,10 +28,10 @@ export default function Footer() {
           {/* Colonne 1 : Logo + pitch */}
           <div className="flex flex-col gap-4 lg:col-span-1">
             <p className="font-fraunces text-2xl text-cream">
-              Horizon Paysage
+              Waeldo Elagueur
             </p>
             <p className="text-sage text-sm leading-relaxed">
-              Élagage et entretien d&apos;arbres à Bussang (88540). Intervention du
+              Élagage et entretien d&apos;arbres à Sotteville-lès-Rouen (76300). Intervention du
               lundi au vendredi de 8h à 18h.
             </p>
             <span className="gold-line" aria-hidden="true" />
@@ -70,16 +70,16 @@ export default function Footer() {
               <li className="flex items-start gap-2.5">
                 <MapPin size={14} className="text-gold shrink-0 mt-0.5" aria-hidden="true" />
                 <span className="text-sage text-sm leading-snug">
-                  2 Chem. du Pommerey<br />88540 Bussang, France
+                  4 Chem. de Halage<br />76300 Sotteville-lès-Rouen, France
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone size={14} className="text-gold shrink-0" aria-hidden="true" />
                 <a
-                  href="tel:+33636316183"
+                  href="tel:+33644788596"
                   className="text-sage text-sm hover:text-cream transition-colors duration-200"
                 >
-                  06 36 31 61 83
+                  06 44 78 85 96
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -120,7 +120,7 @@ export default function Footer() {
         {/* Ligne copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 py-6 text-sage/80 text-xs">
           <p>
-            © {year} Horizon Paysage — Tous droits réservés
+            © {year} Waeldo Elagueur — Tous droits réservés
           </p>
           <div className="flex items-center gap-4">
             <a href="#" className="hover:text-sage transition-colors duration-200">

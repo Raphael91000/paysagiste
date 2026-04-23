@@ -114,9 +114,9 @@ export default function Contact() {
               className="flex flex-col gap-4"
             >
               {[
-                { icon: Phone, label: "Téléphone", value: "06 36 31 61 83", href: "tel:+33636316183" },
+                { icon: Phone, label: "Téléphone", value: "06 44 78 85 96", href: "tel:+33644788596" },
                 { icon: Mail, label: "E-mail", value: "contact@jardins-co.fr", href: "mailto:contact@jardins-co.fr" },
-                { icon: MapPin, label: "Adresse", value: "2 Chem. du Pommerey, 88540 Bussang", href: undefined },
+                { icon: MapPin, label: "Adresse", value: "4 Chem. de Halage, 76300 Sotteville-lès-Rouen", href: undefined },
               ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex items-start gap-3">
                   <div
