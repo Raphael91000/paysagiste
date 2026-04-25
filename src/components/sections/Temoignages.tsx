@@ -14,21 +14,21 @@ const temoignages: Temoignage[] = [
     ville: "Sotteville-lès-Rouen",
     initiales: "MF",
     citation:
-      "Waeldo Elagueur a complètement transformé notre terrain en friche en un véritable écrin de verdure. Le résultat dépasse toutes nos espérances. L'équipe est sérieuse, créative et à l'écoute — nous les recommandons chaleureusement.",
+      "MTC Elagueur a complètement transformé notre terrain en friche en un véritable écrin de verdure. Le résultat dépasse toutes nos espérances. L'équipe est sérieuse, créative et à l'écoute — nous les recommandons chaleureusement.",
   },
   {
     nom: "Thomas & Isabelle Moreau",
     ville: "Sotteville-lès-Rouen",
     initiales: "TM",
     citation:
-      "Après plusieurs devis d'autres paysagistes, c'est Waeldo Elagueur qui nous a convaincus avec leur approche sur-mesure. Chaque détail a été pensé, des essences végétales choisies jusqu'à l'éclairage extérieur. Un travail remarquable.",
+      "Après plusieurs devis d'autres paysagistes, c'est MTC Elagueur qui nous a convaincus avec leur approche sur-mesure. Chaque détail a été pensé, des essences végétales choisies jusqu'à l'éclairage extérieur. Un travail remarquable.",
   },
   {
     nom: "Bertrand Lacombe",
     ville: "Sotteville-lès-Rouen",
     initiales: "BL",
     citation:
-      "Cela fait maintenant trois ans que Waeldo Elagueur entretient notre parc. Ponctualité, professionnalisme et passion du métier : on ne pourrait pas rêver mieux. Notre jardin est une fierté au fil des saisons.",
+      "Cela fait maintenant trois ans que MTC Elagueur entretient notre parc. Ponctualité, professionnalisme et passion du métier : on ne pourrait pas rêver mieux. Notre jardin est une fierté au fil des saisons.",
   },
 ];
 

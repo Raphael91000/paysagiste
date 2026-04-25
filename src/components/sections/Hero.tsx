@@ -89,7 +89,7 @@ export default function Hero() {
             {/* Téléphone + badge Google */}
             <motion.div {...fadeUp(0.5)} className="flex flex-col gap-3">
               <a
-                href="tel:+33644788596"
+                href="tel:+33752209488"
                 className="inline-flex items-center gap-2.5 text-sage hover:text-cream transition-colors duration-200 text-sm w-fit"
                 aria-label="Appelez-nous"
               >
@@ -102,19 +102,19 @@ export default function Hero() {
                 >
                   <Phone size={13} className="text-leaf" />
                 </span>
-                06 44 78 85 96 — Lun. au ven. 8h–18h
+                07 52 20 94 88 — Lun. au ven. 8h–21h
               </a>
 
               {/* Badge Google */}
               <div className="inline-flex items-center gap-2.5 w-fit">
-                <div className="flex gap-0.5" aria-label="Note 4,9 sur 5" role="img">
+                <div className="flex gap-0.5" aria-label="Note 5,0 sur 5" role="img">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star key={i} size={12} className="text-gold fill-gold" aria-hidden="true" />
                   ))}
                 </div>
-                <span className="text-sage/80 text-xs">4,9 / 5 · Google</span>
+                <span className="text-sage/80 text-xs">5,0 / 5 · Google</span>
                 <span className="text-sage/30 text-xs">·</span>
-                <span className="text-sage/80 text-xs">+60 avis</span>
+                <span className="text-sage/80 text-xs">28 avis</span>
               </div>
             </motion.div>
           </div>
@@ -138,7 +138,7 @@ export default function Hero() {
                 >
                   <Image
                     src="/ok.jpeg"
-                    alt="Jardin d'exception créé par Waeldo Elagueur"
+                    alt="Jardin d'exception créé par MTC Elagueur"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 90vw, 380px"

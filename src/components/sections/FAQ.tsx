@@ -146,11 +146,11 @@ export default function FAQ() {
                 trouvez pas ce que vous cherchez&nbsp;? Appelez-nous directement.
               </p>
               <a
-                href="tel:+33644788596"
+                href="tel:+33752209488"
                 className="inline-flex items-center gap-2 text-cream text-sm mt-2 hover:text-leaf transition-colors duration-200"
               >
                 <span className="text-leaf">→</span>
-                06 44 78 85 96
+                07 52 20 94 88
               </a>
             </motion.div>
           </div>

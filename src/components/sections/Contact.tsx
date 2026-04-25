@@ -114,7 +114,7 @@ export default function Contact() {
               className="flex flex-col gap-4"
             >
               {[
-                { icon: Phone, label: "Téléphone", value: "06 44 78 85 96", href: "tel:+33644788596" },
+                { icon: Phone, label: "Téléphone", value: "07 52 20 94 88", href: "tel:+33752209488" },
                 { icon: Mail, label: "E-mail", value: "contact@jardins-co.fr", href: "mailto:contact@jardins-co.fr" },
                 { icon: MapPin, label: "Adresse", value: "4 Chem. de Halage, 76300 Sotteville-lès-Rouen", href: undefined },
               ].map(({ icon: Icon, label, value, href }) => (
@@ -157,7 +157,7 @@ export default function Contact() {
               <div className="flex flex-col gap-1.5 text-sm">
                 <div className="flex justify-between">
                   <span className="text-sage">Lundi – Vendredi</span>
-                  <span className="text-cream">8h – 18h</span>
+                  <span className="text-cream">8h – 21h</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-sage">Samedi – Dimanche</span>

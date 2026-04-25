@@ -21,9 +21,9 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Waeldo Elagueur — Élagage à Sotteville-lès-Rouen",
+  title: "MTC Elagueur — Élagage à Sotteville-lès-Rouen",
   description:
-    "Élagage, taille et entretien d'arbres à Sotteville-lès-Rouen (76300). Waeldo Elagueur intervient du lundi au vendredi de 8h à 18h. Devis gratuit.",
+    "Élagage, taille et entretien d'arbres à Sotteville-lès-Rouen (76300). MTC Elagueur intervient du lundi au vendredi de 8h à 21h. Devis gratuit.",
   keywords: [
     "élagage",
     "taille arbres",
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     "Sotteville-lès-Rouen",
     "76300",
   ],
-  authors: [{ name: "Waeldo Elagueur" }],
+  authors: [{ name: "MTC Elagueur" }],
   openGraph: {
-    title: "Waeldo Elagueur — Élagage à Sotteville-lès-Rouen",
+    title: "MTC Elagueur — Élagage à Sotteville-lès-Rouen",
     description:
-      "Élagage et taille d'arbres à Sotteville-lès-Rouen (76300). Du lundi au vendredi de 8h à 18h.",
+      "Élagage et taille d'arbres à Sotteville-lès-Rouen (76300). Du lundi au vendredi de 8h à 21h.",
     type: "website",
     locale: "fr_FR",
   },
